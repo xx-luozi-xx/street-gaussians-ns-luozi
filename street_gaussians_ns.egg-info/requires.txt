@@ -1,0 +1,5 @@
+pytorch3d
+imagesize
+kornia
+plyfile
+nerfstudio

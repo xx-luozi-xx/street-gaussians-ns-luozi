@@ -1,0 +1,8 @@
+[console_scripts]
+sgn-eval = street_gaussians_ns.scripts.eval:entrypoint
+sgn-export = street_gaussians_ns.scripts.exporter:entrypoint
+sgn-render = street_gaussians_ns.scripts.render:entrypoint
+sgn-train = nerfstudio.scripts.train:entrypoint
+
+[nerfstudio.method_configs]
+sgn = street_gaussians_ns.sgn_config:street_gaussians_ns_method

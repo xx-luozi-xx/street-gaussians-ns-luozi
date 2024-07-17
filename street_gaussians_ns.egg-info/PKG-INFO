@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: street_gaussians_ns
+Version: 0.1.1
+License-File: LICENSE
+Requires-Dist: pytorch3d
+Requires-Dist: imagesize
+Requires-Dist: kornia
+Requires-Dist: plyfile
+Requires-Dist: nerfstudio
